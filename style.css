@@ -75,6 +75,16 @@ h2 {
     margin-top: 0;
 }
 
+.artist-image {
+    width: 100%;
+    max-width: 350px;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto 15px;
+    border-radius: 5px;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
