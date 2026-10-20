@@ -1,6 +1,6 @@
 # Music I Like
 
-This is a beginner-level HTML and CSS website about five music artists: Pink Floyd, Kanye West, MF DOOM, Radiohead, and Tyler, The Creator.
+This is a HTML and CSS website about five music artists: Pink Floyd, Kanye West, MF DOOM, Radiohead, and Tyler, The Creator.
 
 ## Files
 - `index.html`: Homepage and introduction.
@@ -15,6 +15,3 @@ This is a beginner-level HTML and CSS website about five music artists: Pink Flo
 - Basic colors, margins, padding, borders, and typography.
 - Flexbox used for the artist cards.
 - A media query to make the pages easier to use on small screens.
-
-## Open the site
-Open `index.html` in a browser. Keep all four files in the same folder.
