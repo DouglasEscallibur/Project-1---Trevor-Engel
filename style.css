@@ -1,0 +1,118 @@
+body {
+    background-color: #f1eee7;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #263b35;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    margin-top: 0;
+}
+
+nav {
+    background-color: #d7dfd3;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #263b35;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #d5d5ce;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #31594a;
+    margin-top: 0;
+}
+
+.artist-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.artist-list article {
+    background-color: #f7f6f1;
+    border: 1px solid #d5d5ce;
+    padding: 12px;
+    flex: 1 1 220px;
+}
+
+.artist-list h3 {
+    color: #31594a;
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #bcbfb7;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #d7dfd3;
+}
+
+footer {
+    background-color: #263b35;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    main {
+        padding: 0 12px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
